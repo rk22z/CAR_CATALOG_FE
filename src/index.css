@@ -1,0 +1,62 @@
+body{
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #9b9b9b 0%, #cecece 74%);
+  min-height: 94.5vh;
+}
+
+ul,li
+  {
+      list-style-type: none;
+  }
+
+/* li{
+    list-style-type: none;
+  } */
+
+  img {
+    width: 300px;
+    max-width: 90%;
+    max-height: 100%;
+    box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.466);
+    padding-top: 5px;
+    border-radius: 4%;
+  }
+
+h1{
+    
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: #8b8b8b;
+    text-shadow: 2px 1px black;
+    text-decoration-line:underline;
+    font-size: 60px;
+  }
+
+.manufacturers{
+  text-transform: capitalize;
+  border: 2px solid rgba(155, 152, 152, 0.486);
+  border-width: 0.2vh;
+  width: 50%;
+  text-align:center;
+  align-content: center;
+  margin:auto;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #bbb9b9 0%, #bbbaba 74%);
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  border-top: 2px solid rgba(128, 128, 128, 0.171);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.171);
+  box-shadow:1px 1px 15px rgba(0, 0, 0, 0.377);
+}
+
+.car-list{
+  text-transform: capitalize;
+  margin: auto;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+  font-size: 18px;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #9b9b9b 0%, #cecece 74%);
+  color:black;
+}
